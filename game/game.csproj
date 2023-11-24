@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Settings\" />
+    <None Remove="Utilities\" />
+    <None Remove="Utilities\Enums\" />
+    <None Remove="Services\" />
+    <None Remove="GameEngines\" />
+    <None Remove="Assets\" />
+    <None Remove="Assets\Vehicles\" />
+    <None Remove="Assets\Grids\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Settings\" />
+    <Folder Include="Utilities\" />
+    <Folder Include="Utilities\Enums\" />
+    <Folder Include="Services\" />
+    <Folder Include="GameEngines\" />
+    <Folder Include="Assets\" />
+    <Folder Include="Assets\Vehicles\" />
+    <Folder Include="Assets\Grids\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="8.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.editorconfig" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Settings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

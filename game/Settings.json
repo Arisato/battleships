@@ -1,0 +1,8 @@
+﻿{
+  "GridSizeX": 10,
+  "GridSizeY": 10,
+  "VehiclesQty": {
+    "BattleShip": 1,
+    "Destroyer": 2
+  }
+}

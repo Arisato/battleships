@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "JOzyFozdjZIvN1rVhTA13uuN56coHM0emeUS7wI6yNKhyfnTD3lRMYxUpOMbfDtH4oUUT9pBfImLlt8dO2Fa+g==",
+  "success": true,
+  "projectFilePath": "/Users/arisato/Desktop/game/game/game.csproj",
+  "expectedPackageFiles": [
+    "/Users/arisato/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/Users/arisato/.nuget/packages/microsoft.extensions.configuration.binder/8.0.0/microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
+    "/Users/arisato/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
